@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bluntforge-server'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bluntforge-server",
+                    "--package=bluntforge-server"
+                ],
+                "filter": {
+                    "name": "bluntforge-server",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "RUST_LOG": "debug",
+                "RUST_LOG_STYLE": "always"
+            }
+        },
+    ]
+}
