@@ -1,6 +1,7 @@
 {
     "dockerFile": "devcontainer.Dockerfile",
     "extensions": [
-		  "lanza.lldb-vscode"
-	  ]
+		"lanza.lldb-vscode",
+		"donjayamanne.githistory"
+	]
 }
