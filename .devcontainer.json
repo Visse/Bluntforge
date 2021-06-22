@@ -1,3 +1,6 @@
 {
-    "dockerFile": "devcontainer.Dockerfile"
+    "dockerFile": "devcontainer.Dockerfile",
+    "extensions": [
+		  "lanza.lldb-vscode"
+	  ]
 }
