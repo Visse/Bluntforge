@@ -1,7 +1,8 @@
 {
     "dockerFile": "devcontainer.Dockerfile",
     "extensions": [
-		"lanza.lldb-vscode",
-		"donjayamanne.githistory"
+		"donjayamanne.githistory",
+		"vadimcn.vscode-lldb",
+		"matklad.rust-analyzer"
 	]
 }
